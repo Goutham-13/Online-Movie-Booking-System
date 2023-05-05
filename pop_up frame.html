@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Ticket Booking</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .popup {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        max-width: 500px;
+        margin: 100px auto;
+        padding: 20px;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 0;
+      }
+      form {
+        margin-top: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      input[type="number"] {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+        padding: 5px;
+        width: 50%;
+        top:16px;
+        left:39px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+      button[type="button"] {
+        background-color: #f46905;
+        color: #fff;
+        
+        
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      
+        button[type="reset"] {
+        background-color: #f46905;
+        color: #fff;
+        
+        
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+        button[type="submit"]:hover {
+        background-color: #f46905;
+      }
+      button[type="reset"]:hover {
+        background-color: #f46905;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="popup">
+      <h2>How many seats do you need?</h2>
+      <form>
+        <label for="seats">Number of seats:</label>
+        <input type="number" id="seats" name="seats" min="1" max="10">
+        <a href="seatconfirmation.html">
+        <button type="button">Confirm</button>
+        </a>
+        <button type="reset">Cancel</button>
+      </form>
+    </div>
+  </body>
+</html>

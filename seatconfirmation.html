@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Theatre Seat Confirmation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .seating {
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      .seating h2 {
+        margin-top: 0;
+      }
+      .seating p {
+        margin: 0 0 20px 0;
+      }
+      .seat-map {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .seat {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: #ddd;
+        margin: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        color: #333;
+        cursor: pointer;
+      }
+      .seat.selected {
+        background-color: #ff5a5f;
+        color: #fff;
+        cursor: allowed;
+      }
+      .seat.unavailable {
+        background-color: #bbb;
+        color: #999;
+        cursor: not-allowed;
+      }
+      button[type="submit"] {
+        background-color: #ff5a5f;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 18px;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto 0 auto;
+      }
+      button[type="submit"]:hover {
+        background-color: #ff787d;
+      }
+      .pay-button {
+        background-color: #ff5a5f;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 18px;
+        padding: 10px 20px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto 0 auto;
+      }
+      .pay-button:hover {
+        background-color: #ff787d;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Theatre Seat Confirmation</h1>
+    <div class="seating">
+      <h2>Choose Your Seats</h2>
+      <p>.</p>
+      <div class="seat-map">
+        <div class="seat unavailable"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat unavailable"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat unavailable"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat unavailable"></div>
+        <div class="seat unavailable"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat unavailable"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat unavailable"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat unavailable"></div>
+        <div class
